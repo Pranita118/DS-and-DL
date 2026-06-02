@@ -1,18 +1,39 @@
 # DS-and-DL
+[![GitHub License](https://img.shields.io/github/license/Pranita118/DS-and-DL)](https://github.com/Pranita118/DS-and-DL/blob/main/LICENSE)
+[![GitHub Release](https://img.shields.io/github/v/release/Pranita118/DS-and-DL)](https://github.com/Pranita118/DS-and-DL/releases)
+[![GitHub Contributors](https://img.shields.io/github/contributors/Pranita118/DS-and-DL)](https://github.com/Pranita118/DS-and-DL/graphs/contributors)
 
-# Train Dataset Analysis 🚢
-
+## Overview
 This project performs data cleaning, exploratory data analysis (EDA), and visualization on the Titanic `train.csv` dataset using Python.
 
-## 📂 Dataset
+## Dataset
+The dataset used in this project is the Titanic train dataset, which can be found on [Kaggle](https://www.kaggle.com/competitions/titanic/data). The dataset includes the following features:
 
-Source: https://www.kaggle.com/competitions/titanic/data
+* `PassengerId`
+* `Survived`
+* `Pclass`
+* `Name`
+* `Sex`
+* `Age`
+* `SibSp`
+* `Parch`
+* `Ticket`
+* `Fare`
+* `Cabin`
+* `Embarked`
 
-Dataset used:
+## Features
+The project includes the following features:
 
-* `train.csv`
+* Data cleaning and preprocessing
+* Exploratory data analysis (EDA)
+* Data visualization
+* Survival analysis
+* Feature engineering
+* Correlation analysis
 
-## 🛠 Technologies Used
+## Tech Stack
+The project uses the following technologies:
 
 * Python
 * Pandas
@@ -21,29 +42,24 @@ Dataset used:
 * Seaborn
 * Scikit-learn
 
-## 📊 Analysis Performed
+## Installation
+To run the project, follow these steps:
 
-* Missing value handling
-* Data cleaning
-* Survival analysis
-* Feature engineering
-* Data visualization
-* Correlation analysis
+1. Clone the repository: `git clone https://github.com/Pranita118/DS-and-DL.git`
+2. Install the dependencies: `pip install -r requirements.txt`
+3. Run the notebook: `jupyter notebook`
 
-## ▶️ Run the Project
+## Usage
+The project includes a Jupyter Notebook (`task2.ipynb`) that performs the data analysis and visualization.
 
-Install dependencies:
+## Configuration
+The project does not require any environment variables.
 
-```bash id="0ud93l"
-pip install -r requirements.txt
-```
+## Contributing
+Contributions are welcome! To contribute, please fork the repository, make your changes, and submit a pull request.
 
-Run the notebook:
+## License
+This project is licensed under the [MIT License](https://github.com/Pranita118/DS-and-DL/blob/main/LICENSE).
 
-```bash id="j7d7u7"
-jupyter notebook
-```
-
-## 👩‍💻 Author
-
+## Author
 Pranita Kumbhar
